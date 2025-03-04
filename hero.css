@@ -1,0 +1,37 @@
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 40px 80px;
+  }
+  .hero div {
+    width: 50%;
+  }
+  .hero div h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero div p {
+    font-size: 1.2rem;
+    color: rgb(207, 216, 216);
+    margin-bottom: 1rem;
+    margin-right: 50px;
+  }
+  .hero div button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myimg {
+    height: 500px;
+    width: 90%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(221, 67, 36);
+  }
+  #myimg:hover {
+    transform: rotate(2deg);
+    transition: all 0.6s ease-in;
+  }

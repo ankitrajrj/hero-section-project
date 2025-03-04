@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 40px;
+  }
+  .logo {
+    display: flex;
+    margin: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 40px;
+    border: 2px dashed black;
+  }
+  .logo div img{
+    width: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+  }

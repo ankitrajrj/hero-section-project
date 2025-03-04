@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    display: flex;
+    /* width: 100%; */
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 80px;
+    color: #ffffff;
+  }
+
+  nav div ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px; /* yaha par padding ya kuch or bhi use kr sakte the  */
+    cursor: pointer;
+  }
+
+  nav div button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  nav div button:hover {
+    background-color: rgb(253, 76, 18);
+    color: rgb(2, 2, 2);
+  }
